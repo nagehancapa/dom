@@ -1,6 +1,6 @@
 function main() {
-  const paragraphs = document.querySelectorAll("p");
-  paragraphs.forEach((paragraph) => console.log(paragraph));
+  const changeMe = document.querySelector("button");
+  console.log(changeMe);
 }
 
 if (document.readyState === "loading") {
