@@ -1,9 +1,12 @@
 function main() {
-  function onClick(event) {
-    console.log(event);
-  }
+  const name = "Nagehan";
   const changeMe = document.querySelector("button");
+  function onClick(event) {
+    changeMe.textContent = name;
+  }
   changeMe.addEventListener("click", onClick);
+  const title = document.querySelector(".title");
+  title.textContent = "Goodbye";
 }
 
 if (document.readyState === "loading") {
