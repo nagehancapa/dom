@@ -1,7 +1,6 @@
 function main() {
-  const name = "nagehan";
-  console.log(name);
-  console.log(document);
+  const student = document.querySelector(".subtitle");
+  console.log(student);
 }
 
 // check if elements are still loading
