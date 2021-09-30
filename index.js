@@ -1,6 +1,6 @@
 function main() {
-  const changeMe = document.querySelector("button");
-  console.log(changeMe);
+  const subject = document.querySelector("h3");
+  subject.addEventListener("click", () => console.log("clicked"));
 }
 
 if (document.readyState === "loading") {
